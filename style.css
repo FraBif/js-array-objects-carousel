@@ -1,0 +1,38 @@
+.carousel{
+    width: 1000px;
+    height: 500px;
+    background-color: aquamarine;
+    margin: 100px auto;
+}
+
+
+.carousel-item{
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+span{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: block;
+    position: absolute;
+}
+
+#forward{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#backward{
+    left: 50%;
+    top: -50%;
+}
